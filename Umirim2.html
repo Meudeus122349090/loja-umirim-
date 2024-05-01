@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>loja umirim</title>
+</head>
+<style>
+   
+  *{
+    margin:0;
+    padding: 0;
+  }
+  
+  section{
+    padding:20px;
+  }
+  nav{
+    padding: 10px;
+    text-align: center;
+  }
+  .produto{
+    backdrop-filter: blur(20px);
+    background-color: #7a7a7a;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .produto2{
+    backdrop-filter: blur(20px);
+    background-color: #7a7a7a;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+.produto3{
+    backdrop-filter: blur(20px);
+    background-color: #7a7a7a;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  footer{
+    position: fixed;
+    text-align: center;
+    background-color:#333;
+    color:#fff;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    margin-left:-20px;
+  }
+  .back{
+    background-color:#333;
+    height: 70px;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .back a{
+    color:#fff;
+    border: 2px solid #ccc;
+    background: #666;
+    backdrop-filter: blur(30px);
+  }
+  button{
+    padding: 10px;
+    border-radius: 10px;
+    background: #888888;
+    color:#fff;
+  }
+  img{
+    border-radius: 10px;
+    height: 200px;
+  }
+  p{
+    color: #fff;
+  }
+  i{
+    color:#fff;
+    font-size: 20px;
+  }
+  input{
+    border:none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 20px;
+    backdrop-filter: blur(40px);
+  text-align: center;
+  }
+</style>
+<body>
+  <nav>
+    <div class="back">
+    <a href="#home">home</a>
+    <a href="#produtos">produtos</a>
+    <a href="#contato">contato</a>
+    <i>novos produtos sempre</i>
+    </div>
+    <section id="home">
+      <h2>nossos produtos de qualidade</h2>
+    </section>
+    <section id="produtos">
+      <h2>nossos produtos</h2>
+      <div class="produto">
+        <img src="https://picsum.photos/150" alt="produto1">
+        <p>R$ 55,00 R$<del>50,00</del></p>
+        <button onclick="alerta()">comprar</button>
+      </div>
+      <div class="produto2">
+        <img src="jt.jpg" alt="produto2">
+        <p>R$ 0,50 R$<del>0,40</del></p>
+        <button onclick="alerta()">comprar</button>
+      </div>
+      <div class="produto3">
+        <img src="https://picsum.photos/152" alt="produto3">
+        <p>R$ 40,00 R$<del>30,00</del></p>
+        <button onclick="alerta()">comprar</button>
+        
+      </div>
+    </section>
+    <input type="text"placeholder="mansagem"><button onclick="bb()">Enviar</button>
+    <section id="contato">
+      <h2>contato :<del>859999999999</del></h2>
+    </section>
+    <footer>
+      <h2>© nossos termos jonata</h2>
+    </footer>
+  
+    <p>vitin e o criador dessa bagaça e para mostra jejejebejedhdhdhdhdhdhdhdhdhdhdhdhsbshs</p>
+  </nav>
+</body>
+  <script>
+    function alerta(){
+      alert("produtos vencidos")
+    }
+    function bb(){
+      alert("Enviado")
+    }
+  </script>
+  </html>
